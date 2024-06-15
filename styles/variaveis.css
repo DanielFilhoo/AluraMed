@@ -1,0 +1,12 @@
+:root {
+    --cor-primaria: #3498db; /* Exemplo de cor primária */
+    --cor-secundaria: #2ecc71; /* Exemplo de cor secundária */
+    --branco: #ffffff; /* Cor branca */
+    --cinza: #bdc3c7; /* Exemplo de cor cinza */
+    --cinza-secundario: #95a5a6; /* Exemplo de cor cinza secundário */
+    --texto: #333333; /* Cor do texto */
+    --texto-claro: #7f8c8d; /* Cor do texto claro */
+    --fundo: #ecf0f1; /* Cor de fundo */
+    --fundo-card: #ffffff; /* Cor de fundo dos cards */
+  }
+  

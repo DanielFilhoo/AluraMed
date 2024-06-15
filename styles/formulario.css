@@ -1,0 +1,44 @@
+/* Estilização do formulário de cadastro */
+.cadastro-consulta {
+    display: none; /* Esconder por padrão */
+    padding: 1rem;
+    background: var(--fundo-card);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+/* Exibir o formulário em telas maiores */
+@media (min-width: 768px) {
+    .cadastro-consulta {
+        display: block;
+    }
+}
+
+.cadastro-consulta form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-consulta label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.cadastro-consulta input,
+.cadastro-consulta select,
+.cadastro-consulta textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--cinza);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.cadastro-consulta textarea {
+    resize: vertical;
+}
+
+.cadastro-consulta button {
+    align-self: flex-start;
+}
